@@ -39,12 +39,12 @@ public class Program {
 		String title;
 		System.out.println("\nDados da " + position + "a aula:");
 		System.out.print("Conteúdo ou tarefa (c/t)? ");
-		char productType = sc.next().charAt(0);
+		char contentType = sc.next().charAt(0);
 		sc.nextLine();
 		System.out.print("Título: ");
 		title = sc.nextLine();
 
-		if (productType == 'c') {
+		if (contentType == 'c') {
 			System.out.print("URL do vídeo: ");
 			String url = sc.nextLine();
 			System.out.print("Duração em segundos: ");
